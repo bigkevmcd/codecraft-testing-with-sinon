@@ -8,11 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "jasmine-node": "^3.0.0",
     "sinon": "^7.5.0"
-  },
-  "devDependencies": {
-    "jasmine-sinon": "^0.4.0"
   }
 }
