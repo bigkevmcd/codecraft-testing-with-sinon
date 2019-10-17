@@ -13,7 +13,7 @@ describe('Signup class', () => {
       signup.createUser(userDetails);
 
       mock.verify();
-      mock.restore();
+      mock.restore(); // This could be reset with sinon.reset() in an afterEach
     });
   });
 });
